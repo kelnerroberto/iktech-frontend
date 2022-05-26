@@ -15,7 +15,7 @@ Foi utilizado o React Router Dom para as rotas
 
 Atenção para essa parte!
 
-Primeiramente, você deve fazer o clone do repositório na sua máquina local. Para isso, recomendo utilizar a chave SSH e utilizar o comando git clone :chave:.
+Primeiramente, você deve fazer o clone do repositório na sua máquina local. Para isso, recomendo utilizar a chave SSH e utilizar o comando `git clone :chave:`.
 
 Assim que terminar a instalação você pode utilizar o comando `cd frontend/my_app` e em seguida rodar o comando `npm install` para instalar as dependências do projeto.
 
