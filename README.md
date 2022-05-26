@@ -40,4 +40,4 @@ Neste projeto é utilizada a biblioteca Axios para fazer as requisições para a
 
 ### Pronto! Agora é só desfrutar do projeto.
 
-P.s.: Estou tendo dificuldades com o deploy do frontend e ainda não consegui achar uma solução. Por este motivo, o projeto somente roda localmente seguindo os passos mencionados na seção *Como rodas o projeto localmente*.  
+P.s.: Estou tendo dificuldades com o deploy do frontend e ainda não consegui achar uma solução. Por este motivo, o projeto somente roda localmente seguindo os passos mencionados na seção *Como rodar o projeto localmente*.  
