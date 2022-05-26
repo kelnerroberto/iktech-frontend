@@ -35,7 +35,7 @@ O projeto possuí, por enquanto, apenas uma rota `/`, que é uma tela que exibe 
 
 O endpoint utilizado é a API que está rodando em `https://protected-bastion-57133.herokuapp.com/`, porém, é necessário utilizar a rota que é expressa na api, ou seja, para o método GET é utilizado `https://protected-bastion-57133.herokuapp.com/all` e para o método POST é utilizado `https://protected-bastion-57133.herokuapp.com/add`.
 
-Neste projeto é utilizanda a biblioteca Axios para fazer as requisições para a API, conforme você poderá notar na pasta `frontend/my_app/src/services`.
+Neste projeto é utilizada a biblioteca Axios para fazer as requisições para a API, conforme você poderá notar na pasta `frontend/my_app/src/services`.
 
 
 ### Pronto! Agora é só desfrutar do projeto.
