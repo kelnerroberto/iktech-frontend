@@ -1,6 +1,6 @@
-#Ik Solutions Frontend
+# Ik Solutions Frontend
 
-##Bem-vindo ao repositório de frontend do projeto realizado para o teste da Ik Solution!
+## Bem-vindo ao repositório de frontend do projeto realizado para o teste da Ik Solution!
 
 Este repositório é destinado ao desenvolvimento da aplicação solicitada para avaliação da Ik Solution.
 
