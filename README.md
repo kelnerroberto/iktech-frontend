@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bem-vindo ao repositório de frontend do projeto realizado para o teste da Ik Solution!
 
-## Available Scripts
+Este repositório é destinado ao desenvolvimento da aplicação solicitada para avaliação da Ik Solution.
 
-In the project directory, you can run:
+Este é um projeto fullstack, onde há a integração de ambos, tanto backend quanto frontend.
 
-### `npm start`
+No frontend as principais tecnologias utilizadas são:
+ - React.Js
+ - Axios
+ - Chakra UI
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Foi utilizado o React Router Dom para as rotas
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Como rodar o projeto localmente:
 
-### `npm test`
+Atenção para essa parte!
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Primeiramente, você deve fazer o clone do repositório na sua máquina local. Para isso, recomendo utilizar a chave SSH e utilizar o comando git clone :chave:.
 
-### `npm run build`
+Assim que terminar a instalação você pode utilizar o comando `cd frontend/my_app` e em seguida rodar o comando `npm install` para instalar as dependências do projeto.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Rodar o comando npm install fará com que as dependências sejam instaladas na sua máquina local (uma vez que o arquivo node_modules é ignorado pelo .gitignore).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Importante:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Após seguir esses passos, você poderá rodar o projeto utilizando o comando `npm start` dentro da pasta /frontend/my_app.
 
-### `npm run eject`
+E pronto! O projeto já deve estar rodando!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Rotas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O projeto possuí, por enquanto, apenas uma rota `/`, que é uma tela que exibe os compromissos agendados e um formulário para adicionar um novo compromisso.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## API
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+O endpoint utilizado é a API que está rodando em `https://protected-bastion-57133.herokuapp.com/`, porém, é necessário utilizar a rota que é expressa na api, ou seja, para o método GET é utilizado `https://protected-bastion-57133.herokuapp.com/all` e para o método POST é utilizado `https://protected-bastion-57133.herokuapp.com/add`.
 
-## Learn More
+Neste projeto é utilizanda a biblioteca Axios para fazer as requisições para a API, conforme você poderá notar na pasta `frontend/my_app/src/services`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Pronto! Agora é só desfrutar do projeto.
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+P.s.: Estou tendo dificuldades com o deploy do frontend e ainda não consegui achar uma solução. Por este motivo, o projeto somente roda localmente seguindo os passos mencionados na seção *Como rodas o projeto localmente*.  
