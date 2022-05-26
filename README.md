@@ -23,7 +23,7 @@ Rodar o comando npm install fará com que as dependências sejam instaladas na s
 
 Importante:
 
-Após seguir esses passos, você poderá rodar o projeto utilizando o comando `npm start` dentro da pasta /frontend/my_app.
+Após seguir esses passos, você poderá rodar o projeto utilizando o comando `npm start` dentro da pasta *`/frontend/my_app`*.
 
 E pronto! O projeto já deve estar rodando!
 
