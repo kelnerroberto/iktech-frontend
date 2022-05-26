@@ -43,3 +43,17 @@ Neste projeto é utilizada a biblioteca Axios para fazer as requisições para a
 ### Pronto! Agora é só desfrutar do projeto.
 
 P.s.: Estou tendo dificuldades com o deploy do frontend e ainda não consegui achar uma solução. Por este motivo, o projeto somente roda localmente seguindo os passos mencionados na seção *Como rodar o projeto localmente*.  
+
+## Testes
+
+Por ora o projeto possui apenas 2 testes simples, utilizando RTL, que você poderá ver entrando na pasta `/frontend/my_app/src` e usando o comando `npm test`.
+
+## Heroku
+
+O projeto está em andamento no heroku pelo endereço `https://aqueous-citadel-59933.herokuapp.com/`, porém está instável e quebrando em alguns momentos, com o erro:
+
+`FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory`.
+
+Por ora, ainda não estou conseguindo resolver esse problema, mas espero corrigi-lo assim que possível.
+
+Por este motivo, recomendo que rode o projeto na sua máquina local.
